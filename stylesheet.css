@@ -36,3 +36,10 @@ input[type="submit"] {
   font-size: 15px;
   letter-spacing: 0.1em;
 }
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.main{
+  height: 650px;
+  width:500px;
+  margin: 0 auto;
+  border: black 1px double;
+}
