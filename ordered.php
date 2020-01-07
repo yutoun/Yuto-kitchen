@@ -12,11 +12,13 @@
       <h2>注文確認</h2>
       <?php foreach ($menus as $menu): ?>
         <!-- ↘︎nameをつけたinputの数字がプロパティとして出力される -->
-        <?php $amount = $_POST[$menu->getName()] ?>
+        <?php
+          $amount = $_POST[$menu->getName()] ;
+          $menu -> setAmount($amount);
+        ?>
         <p>
           <?php echo $menu->getName() ?>
           ×
-          <!-- <?php echo $menu->getAmount() ?> -->
           <?php echo $amount ?>
         </p>
           <!-- postがないと何個とったかがわからない -->

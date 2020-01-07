@@ -24,6 +24,9 @@
     public function totalPrice(){
       return $this->amount*$this->price;
     }
+    public function setAmount($amount) {
+      $this->amount = $amount;
+    }
 
   }
 
