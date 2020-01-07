@@ -10,7 +10,20 @@
   <body>
     <div class="main">
       <h2>注文確認</h2>
-      
+      <?php foreach ($menus as $menu): ?>
+        <!-- ↘︎nameをつけたinputの数字がプロパティとして出力される -->
+        <?php $amount = $_POST[$menu->getName()] ?>
+        <p>
+          <?php echo $menu->getName() ?>
+          ×
+          <!-- <?php echo $menu->getAmount() ?> -->
+          <?php echo $amount ?>
+        </p>
+          <!-- postがないと何個とったかがわからない -->
+
+
+
+      <?php endforeach?>
     </div>
   </body>
 </html>

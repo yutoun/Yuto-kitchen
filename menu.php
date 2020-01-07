@@ -3,6 +3,7 @@
     protected $name;
     protected $price;
     protected $image;
+    protected $amount;
     public function __construct($name, $price, $image){
       $this->name=$name;
       $this->price = $price;
@@ -17,7 +18,12 @@
     public function getImage(){
       return $this->image;
     }
-
+    public function getAmount(){
+      return $this->amount;
+    }
+    public function totalPrice(){
+      return $this->amount*$this->price;
+    }
 
   }
 

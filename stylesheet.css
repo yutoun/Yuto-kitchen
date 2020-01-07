@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.title{
+  height:450px;
+  width:100%;
+}
 .items{
   display: inline-block;
   margin:71px;
@@ -35,6 +39,9 @@ input[type="submit"] {
   background-color: #42c7c1;
   font-size: 15px;
   letter-spacing: 0.1em;
+}
+.aa{
+  display: inline-block;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .main{
