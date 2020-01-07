@@ -18,14 +18,14 @@
     public function getImage(){
       return $this->image;
     }
-    public function getAmount(){
-      return $this->amount;
-    }
     public function totalPrice(){
       return $this->amount*$this->price;
     }
     public function setAmount($amount) {
       $this->amount = $amount;
+    }
+    public function getTotalPrice(){
+      return $this->amount*$this->price;
     }
 
   }

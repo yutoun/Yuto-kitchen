@@ -50,3 +50,6 @@ input[type="submit"] {
   margin: 0 auto;
   border: black 1px double;
 }
+.main p,h2{
+  margin: 20px 0;
+}

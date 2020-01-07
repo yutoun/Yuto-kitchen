@@ -22,7 +22,8 @@ require_once('data.php');
               <a href="detail.php">>>>詳細はコチラ</a>
             </div>
         <?php endforeach ?>
+        <a href="ordered.php"><input type="submit"  value="オーダーする"></a>
       </form>
-      <a href="ordered.php"><input type="submit"  value="オーダーする"></a>
+
   </body>
 </html>
