@@ -53,3 +53,9 @@ input[type="submit"] {
 .main p,h2{
   margin: 20px 0;
 }
+.main p{
+  display: inline-block;
+}
+.amount{
+  /* margin-right: 50px; */
+}
